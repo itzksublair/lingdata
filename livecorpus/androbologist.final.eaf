@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-11-26T22:46:30+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2020-11-29T21:46:49+03:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/Lenovo/Desktop/androbologist/androbologist.mp4" MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./androbologist.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:88e213b7-b1cb-4053-8b1c-7c5cdd958aaa</PROPERTY>
@@ -10040,7 +10040,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="grammatical features" PARENT_REF="words@svd1978m" PARTICIPANT="@svd1978m" TIER_ID="gram@svd1978m">
+    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="grammatical features" PARENT_REF="words@svd1978m" PARTICIPANT="@svd1978m" TIER_ID="gram@svd1978m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a2953" ANNOTATION_REF="a164">
                 <ANNOTATION_VALUE>_</ANNOTATION_VALUE>
@@ -14797,7 +14797,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="part of speech" PARENT_REF="words@ab1983m" PARTICIPANT="@ab1983m" TIER_ID="pos@ab1983m">
+    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="part of speech" PARENT_REF="words@ab1983m" PARTICIPANT="@ab1983m" TIER_ID="pos@ab1983m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a3904" ANNOTATION_REF="a1114">
                 <ANNOTATION_VALUE>CCONJ</ANNOTATION_VALUE>
@@ -16434,7 +16434,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="part of speech" PARENT_REF="words@svd1978m" PARTICIPANT="@svd1978m" TIER_ID="pos@svd1978m">
+    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="part of speech" PARENT_REF="words@svd1978m" PARTICIPANT="@svd1978m" TIER_ID="pos@svd1978m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a4231" ANNOTATION_REF="a164">
                 <ANNOTATION_VALUE>INTJ</ANNOTATION_VALUE>
@@ -21191,7 +21191,7 @@
             </REF_ANNOTATION>
         </ANNOTATION>
     </TIER>
-    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="ru" LINGUISTIC_TYPE_REF="grammatical features" PARENT_REF="words@ab1983m" PARTICIPANT="@ab1983m" TIER_ID="gram@ab1983m">
+    <TIER ANNOTATOR="itzksublair" DEFAULT_LOCALE="en" LINGUISTIC_TYPE_REF="grammatical features" PARENT_REF="words@ab1983m" PARTICIPANT="@ab1983m" TIER_ID="gram@ab1983m">
         <ANNOTATION>
             <REF_ANNOTATION ANNOTATION_ID="a5182" ANNOTATION_REF="a1114">
                 <ANNOTATION_VALUE>_</ANNOTATION_VALUE>
@@ -22839,6 +22839,7 @@
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="imported-sep" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="grammatical features" TIME_ALIGNABLE="false"/>
     <LOCALE COUNTRY_CODE="RU" LANGUAGE_CODE="ru"/>
+    <LOCALE LANGUAGE_CODE="en" VARIANT="ASCII"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
